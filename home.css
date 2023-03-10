@@ -320,7 +320,7 @@ background-clip:calc();
   /*            .............     media      .............                  */
 
 
-   @media  (max-width:320px){
+   @media  (max-width:321px){
       .checkbtn{
          display: block;
   
@@ -368,8 +368,45 @@ background-clip:calc();
 
 
 
+@media  (min-width:322px) and (max-width:330px) {
+  .checkbtn{
+    display: block;
+
+}
+ul{
+    position: fixed;
+    width: 50%;
+    height: 70%;
+    background: linear-gradient( to left , rgba(178, 168, 154, 0.787),rgba(171, 171, 166, 0.384) );
+    top:px;
+    left:-100%;
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 44px;
+}
 
 
+.r ul li {
+display: block;
+margin:50px  0;
+line-height: 30px;
+
+
+}
+ul li a{
+font-size: 30px;
+color: rgb(56, 31, 25);
+
+}
+#check:checked ~ ul{
+
+left:0 ;
+
+}
+.card{
+width: 276px;
+}
+}
 
 
 
